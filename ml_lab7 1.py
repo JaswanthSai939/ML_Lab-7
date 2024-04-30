@@ -13,7 +13,7 @@ from sklearn.naive_bayes import GaussianNB
 #from xgboost import XGBClassifier
 
 # Load data from Excel file
-data = pd.read_excel(r"C:\Users\mones\OneDrive\Documents\project\project\combined")
+data = pd.read_excel(r"C:\Users\sai jaswanth\Downloads\Parkinsson disease (1).csv")
 
 # Assuming 'Label' is the column you want to encode (target variable)
 label_encoder = LabelEncoder()
